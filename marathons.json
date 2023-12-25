@@ -1,0 +1,4 @@
+[
+    { "id": 1, "name": "Melbourne Marathon", "month": "10", "entry": "closed" },
+    { "id": 2, "name": "Sydney Marathon", "month": "9", "entry": "open" }
+ ]
