@@ -12,9 +12,15 @@
             $('#example').DataTable({
                 "ajax": "https://powerkissinger.github.io/marathons/marathons.json",
                 "columns": [
-                    { "data": "name" },
-                    { "data": "month" },
-                    { "data": "entry" }
+                    { "data": "event_name" },
+                    { "data": "event_date" },
+                    { "data": "event_location" },
+                    { "data": "event_state" },
+                    { "data": "event_type" },
+                    { "data": "event_ctt" },
+                    { "data": "series_tag" }, 
+                    { "data": "event_website" }, 
+                    { "data": "event_fb" },                       
                     // Add more columns as needed
                 ]
             });
